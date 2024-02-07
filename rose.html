@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="rose.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script>
+      function playAudio() {
+      var audio = document.getElementById("myAudio");
+      audio.play();}
+    </script>
+  </head>
+  <body>
+    <audio id="myAudio">
+      <source src="music/Is This Love.mp3" type="audio/mp3">
+    </audio>
+    <img class="rose" src="images/rose.jpg" alt="">
+    <div class="container">
+      <div class="glass">
+        <div class="shine"></div>
+      </div>
+      <div class="thorns">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="leaves">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="petals">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="text">
+        <h2></h2>Happy Rose Day Motu!!<br /> 
+       I have something for your Smile : <a href="new.html">Love You!!</a></h2>
+      </div>
+      <button class="btn" onclick="playAudio()"><i class="ph ph-heart"></i></button>
+    </div>
+  </body>
+</html>
